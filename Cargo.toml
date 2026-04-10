@@ -2,7 +2,7 @@
 name = "cuda-provenance"
 version = "0.1.0"
 edition = "2021"
-description = "Decision lineage, data origin, audit hash chain"
+description = "Decision lineage with audit hash chain"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-provenance"
 readme = "README.md"
@@ -11,3 +11,4 @@ categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
+
