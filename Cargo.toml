@@ -1,0 +1,8 @@
+[package]
+name = "cuda-provenance"
+version = "0.1.0"
+edition = "2021"
+description = "Provenance tracking — decision lineage, data origin tracing, accountability chains, and audit trails for agent actions"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
